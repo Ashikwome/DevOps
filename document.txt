@@ -1,0 +1,6 @@
+Working with docker.
+There are public repositories which other developers have created, and we can pull some request from there like ubuntu, Nginx etc. Docker normally use basic kernel of the selcted image ( these selected docker images are created minimally )
+
+🆘 Important breatpoints while working with Docker 🆘
+
+copying the custom index.html file on the /var/www/html folder allowed me to create my own custom website with Nginx.

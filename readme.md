@@ -28,4 +28,36 @@ echo \
 
   sudo docker run hello-world
 
+  Docker file management command:
+ 
+ sudo docker build -t class1 .
+>> this command will build a docker file with the tag "class1" or class1 image
+ 
+ sudo docker run class1
+>> It will run the container image named class1
+
+ sudo docker ps
+>> It will show the running process/task of docker
+
+ sudo docker exec -it 56 sh
+>> This command helps to get a bash shell in the conatainer.
+
+ sudo docker images
+>> docker image list
+
+ sudo docker rmi -f ID
+>> Deleting a docker image
+
+ sudo docker ps
+>> Will show the running process list
+
+ sudo docker kill ID
+>> Killing a specific task wtih ID
+
+" # " is considered as a comment in docker. shell does not execute a comment. Whitespace between arguments like 
+RUN echo "\
+     hello\
+     world" 
+Here the output screen will also have the whitespaces.
   ----------------------COMPLETE----------------------------
+  ----------------------COMPLETE----------------------
